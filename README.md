@@ -22,45 +22,39 @@ The dataset used for this project typically includes the following features:
 - Class: The target variable, where 1 indicates a fraudulent transaction, and 0 indicates a legitimate transaction.<br>
 
 ## Project Pipeline
-The project is structured into the following key stages:
+### The project is structured into the following key stages:
 
-1. Data Exploration and Preprocessing:
-
+**1. Data Exploration and Preprocessing:**
 - Load and explore the dataset.
 - Handle missing values and outliers.
 - Normalize and scale features, particularly the Amount feature.
 
-2. Handling Imbalanced Data:
-
+**2. Handling Imbalanced Data:**
 - Explore class distribution.
 - Apply techniques like SMOTE (Synthetic Minority Over-sampling Technique) to balance the dataset.
 
-3. Model Selection and Training:
-
+**3. Model Selection and Training:**
 - Choose appropriate machine learning models such as Logistic Regression, Random Forest, or XGBoost.
 - Train models on the balanced dataset.
 
-4. Model Evaluation:
-
+**4. Model Evaluation:**
 - Evaluate the models using metrics such as ROC-AUC, precision, recall, and F1-score.
 - Use confusion matrices and ROC curves to analyze model performance.
 
-5. Hyperparameter Tuning:
-
+**5. Hyperparameter Tuning:**
 - Perform GridSearchCV or RandomizedSearchCV to optimize model parameters.
 
-6. Final Model and Deployment:
-
+**6. Final Model and Deployment:**
 - Select the best-performing model.
 - Prepare the model for deployment, ensuring it can handle real-time transaction data.
 
-7. How to Run
+**7. How to Run**
 - Clone the repository.
 - Install required libraries from requirements.txt.
 - Run the Jupyter notebook or script for each stage of the project.
-Conclusion
 
-7. Conclusion:
+---
 
+## 7. Conclusion
 Summarize findings, model performance, and the potential impact on the business. The successful implementation of this project can significantly reduce financial losses due to credit card fraud by accurately detecting fraudulent transactions in real-time.
 
