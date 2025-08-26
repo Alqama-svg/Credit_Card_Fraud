@@ -52,9 +52,7 @@ The dataset used for this project typically includes the following features:
 - Clone the repository.
 - Install required libraries from requirements.txt.
 - Run the Jupyter notebook or script for each stage of the project.
-
 ---
-
 ## 7. Conclusion
 Summarize findings, model performance, and the potential impact on the business. The successful implementation of this project can significantly reduce financial losses due to credit card fraud by accurately detecting fraudulent transactions in real-time.
 
